@@ -9,8 +9,17 @@
 import SwiftUI
 
 struct ContentView: View {
+    @ObservedObject var durationTimer = TimerWrapper()
+    
     var body: some View {
-        Text("Hello, World!")
+        VStack {
+            Text("\(durationTimer.count)")
+            Button(action: {
+                self.durationTimer.start()
+            }, label: {
+                Text("Fire!")
+            })
+        }
     }
 }
 
