@@ -60,12 +60,12 @@
 			children = (
 				296C697923E1C59E00DAF1BD /* AppDelegate.swift */,
 				296C697B23E1C59E00DAF1BD /* SceneDelegate.swift */,
+				296C698D23E1C5C200DAF1BD /* TimerWrapper.swift */,
 				296C697D23E1C59E00DAF1BD /* ContentView.swift */,
 				296C697F23E1C5A000DAF1BD /* Assets.xcassets */,
 				296C698423E1C5A000DAF1BD /* LaunchScreen.storyboard */,
 				296C698723E1C5A000DAF1BD /* Info.plist */,
 				296C698123E1C5A000DAF1BD /* Preview Content */,
-				296C698D23E1C5C200DAF1BD /* TimerWrapper.swift */,
 			);
 			path = TimerTest;
 			sourceTree = "<group>";
