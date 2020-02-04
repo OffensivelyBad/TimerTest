@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2965290423E9A7F400C203F8 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2965290323E9A7F400C203F8 /* TimerView.swift */; };
 		296C697A23E1C59E00DAF1BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296C697923E1C59E00DAF1BD /* AppDelegate.swift */; };
 		296C697C23E1C59E00DAF1BD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296C697B23E1C59E00DAF1BD /* SceneDelegate.swift */; };
 		296C697E23E1C59E00DAF1BD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296C697D23E1C59E00DAF1BD /* ContentView.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2965290323E9A7F400C203F8 /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
 		296C697623E1C59E00DAF1BD /* TimerTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimerTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		296C697923E1C59E00DAF1BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		296C697B23E1C59E00DAF1BD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 				296C697B23E1C59E00DAF1BD /* SceneDelegate.swift */,
 				296C698D23E1C5C200DAF1BD /* TimerWrapper.swift */,
 				296C697D23E1C59E00DAF1BD /* ContentView.swift */,
+				2965290323E9A7F400C203F8 /* TimerView.swift */,
 				296C697F23E1C5A000DAF1BD /* Assets.xcassets */,
 				296C698423E1C5A000DAF1BD /* LaunchScreen.storyboard */,
 				296C698723E1C5A000DAF1BD /* Info.plist */,
@@ -149,6 +152,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2965290423E9A7F400C203F8 /* TimerView.swift in Sources */,
 				296C697A23E1C59E00DAF1BD /* AppDelegate.swift in Sources */,
 				296C697C23E1C59E00DAF1BD /* SceneDelegate.swift in Sources */,
 				296C697E23E1C59E00DAF1BD /* ContentView.swift in Sources */,
